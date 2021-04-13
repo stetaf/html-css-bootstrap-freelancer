@@ -44,3 +44,6 @@ nav, .site_copy {
     color: #1abc9c;
 }
 
+.text_right {
+    text-align: right;
+}
