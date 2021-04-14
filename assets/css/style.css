@@ -3,6 +3,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.line {
+    width: 15%;
+    border: 2px solid;
+    border-radius: 2px;
+}
+
+/* Navbar */
 .navbar { padding: 18px 0; }
 
 .navbar-brand > span {
@@ -13,7 +20,14 @@ body {
     color: white !important;
     margin: auto 5px;
  }
+/* /Navbar */ 
 
+/* Jumbotron */
+.jumbo_avatar { width: 250px; }
+/* /Jumbotron */
+
+
+/* Fixed */
 .site_copy {
     height: 75px;
 }
@@ -37,6 +51,7 @@ body {
 .site_info {
     height: 170px;
 }
+/* /Fixed */
 
 /* UT */
 .bg_dark_gray {
@@ -53,6 +68,10 @@ body {
 
 .dark_gray {
     color: #2c3e50;
+}
+
+.white {
+    color: white;
 }
 
 .green {
