@@ -1,5 +1,20 @@
 /* PAGE */
-nav, .site_copy {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar { padding: 18px 0; }
+
+.navbar-brand > span {
+    font-size: 27px;
+}
+
+.nav-link { 
+    color: white !important;
+    margin: auto 5px;
+ }
+
+.site_copy {
     height: 75px;
 }
 
