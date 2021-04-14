@@ -110,7 +110,6 @@ body {
 
 .site_info h4 { 
     text-transform: uppercase;
-    font-size: 1.2rem; 
 }
 
 .social_icons {     
@@ -244,4 +243,5 @@ body {
 
     .contact_me { padding-bottom: 25px; }
 
+    .site_info h4 { font-size: 1.2rem; }
 }
