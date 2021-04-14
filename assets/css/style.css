@@ -41,14 +41,18 @@ body {
 .jumbo_avatar { width: 250px; }
 /* /Jumbotron */
 
+/* Portofolio */
+.my_portfolio { padding-bottom: 55px; }
 
+.my_portfolio img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+/* /Portfolio */
 /* Fixed */
 .site_copy {
     height: 75px;
-}
-
-.my_portfolio {
-    height: 700px;
 }
 
 .about {
@@ -79,6 +83,10 @@ body {
 
 .dark_gray {
     color: #2c3e50;
+}
+
+.dark_gray2 { 
+    color: #333333;
 }
 
 .white {
