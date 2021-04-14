@@ -3,10 +3,25 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.special_line {
+    align-items: center;
+    justify-content: center;
+    margin: 18px 0;
+}
+
 .line {
     width: 15%;
     border: 2px solid;
     border-radius: 2px;
+    margin: auto 2rem;
+}
+
+.special_line i {
+    font-size: 30px;
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
 }
 
 /* Navbar */
