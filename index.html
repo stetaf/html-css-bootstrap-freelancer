@@ -125,7 +125,7 @@
         <!-- Contact me -->
         <section class="contact_me">
             <div class="container text-center">
-                <h1 class="text-uppercase font-weight-bold fs_3">Contact me</h1>
+                <h1 class="text-uppercase font-weight-bold fs_3 dark_gray2">Contact me</h1>
                 <div class="special_line d-flex">
                     <hr class="line dark_gray">
                     <i class="fas fa-star dark_gray"></i>
@@ -138,18 +138,21 @@
                             <input type="text" class="form-control" id="inputName1" aria-describedby="personName">
                           </div>  
                         <div class="form-group">
-                          <label for="inputEmail1">Email address</label>
+                          <label for="inputEmail1">Email Address</label>
                           <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
                         </div>
                         <div class="form-group">
-                            <label for="inputPwd1">Number</label>
-                            <input type="number" class="form-control" id="inputPwd1" aria-describedby="personPwd">
-                          </div>  
-                        <div class="form-group form-check">
+                            <label for="inputPhone1">Phone Number</label>
+                            <input type="tel" class="form-control" id="inputPhone1" name="inputPhone1"
+                            pattern="[0-9]{10}">                        
+                        </div>  
+                        <div class="form-group">
                             <label for="inputMsg1">Message</label>
                             <textarea class="form-control" id="inputMsg1" rows="3"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary bg_aqua_green">Send</button>
+                        </div>
                       </form>                
                 </div>
            </div>
