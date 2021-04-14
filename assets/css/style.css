@@ -99,15 +99,13 @@ body {
 
 .contact_me .btn:hover { background-color: #1abc9c; }
 
-/* Fixed */
-.site_copy {
-    height: 75px;
-}
+/* Site info */
+.site_info { padding: 25px 0; }
 
-.site_info {
-    height: 170px;
-}
-/* /Fixed */
+.site_info .row { align-self: center; }
+
+.site_info p { margin: unset; }
+/* /Site info */
 
 /* UT */
 .bg_dark_gray {
