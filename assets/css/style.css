@@ -26,6 +26,7 @@ body {
 .jumbotron p {
     font-size: 1.5rem;
 }
+/* /PAGE */
 
 /* Navbar */
 .navbar { padding: 18px 0; }
@@ -61,6 +62,7 @@ body {
 
 .about .btn {
     border: 1px solid white;
+    padding: 8px 15px;
 }
 
 .about .btn:hover {
@@ -130,6 +132,8 @@ body {
 .social_icons a i{
 	font-size: 15px;
 }
+
+.site_info .theme_creator a { color: #1abc9c; }
 /* /Site info */
 
 /* Site copy */
@@ -181,4 +185,42 @@ body {
 
 .fs_3 {
     font-size: 3rem;
+}
+/* /UT */
+
+/* Media */
+@media screen and (max-width:768px) {
+    .display-4 { font-size: 2rem; }
+
+    .container { max-width: unset; }
+
+    .line {
+        width: 17%;
+        margin: auto 0.5rem;
+    }
+        
+    .jumbotron .lead { 
+        font-size: 17px;
+        margin: unset; 
+    }
+
+    .fs_3 { font-size: 1.7rem; }
+
+    .navbar-brand > span { font-size: 20px; }
+
+    .about p {
+        padding: 1% 15%;
+    }
+
+    .contact_me { padding-bottom: 15px; }
+
+    .contact_me form { width: 50%; }
+
+    .site_info { padding-bottom: 10px; }
+
+    .site_info h4 { font-size: 1.1rem; }
+
+    .site_info [class*="col"] {
+        margin-bottom: 45px;
+    }
 }
