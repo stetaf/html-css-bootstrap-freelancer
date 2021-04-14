@@ -242,4 +242,6 @@ body {
     .my_intro .line,
     .my_portfolio .line { width: 18%; } 
 
+    .contact_me { padding-bottom: 25px; }
+
 }
