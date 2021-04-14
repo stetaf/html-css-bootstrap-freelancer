@@ -189,11 +189,18 @@ body {
 /* /UT */
 
 /* Media */
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .display-4 { font-size: 2rem; }
 
     .container { max-width: unset; }
 
+    .my_portfolio { padding-bottom: 25px; }
+
+    .about, 
+    .contact_me { padding-bottom: 40px; }
+
+    .navbar-toggler { border-color: white; }
+    
     .line {
         width: 17%;
         margin: auto 0.5rem;
@@ -212,6 +219,8 @@ body {
         padding: 1% 15%;
     }
 
+    .about button { margin-top: 15px; }
+
     .contact_me { padding-bottom: 15px; }
 
     .contact_me form { width: 50%; }
@@ -223,4 +232,14 @@ body {
     .site_info [class*="col"] {
         margin-bottom: 45px;
     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    
+    .about .line,
+    .contact_me .line { width: 10%; }
+
+    .my_intro .line,
+    .my_portfolio .line { width: 18%; } 
+
 }
