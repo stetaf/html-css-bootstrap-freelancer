@@ -6,7 +6,7 @@ body {
 .special_line {
     align-items: center;
     justify-content: center;
-    margin: 18px 0;
+    margin: 25px 0;
 }
 
 .line {
@@ -91,4 +91,12 @@ body {
 
 .text_right {
     text-align: right;
+}
+
+.m_top75 {
+    margin-top: 75px;
+}
+
+.fs_3 {
+    font-size: 3rem;
 }
