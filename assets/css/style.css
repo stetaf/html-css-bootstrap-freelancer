@@ -51,8 +51,37 @@ body {
 .my_portfolio img {
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 30px;
 }
+
+.my_portfolio .card { 
+    border: unset; 
+    margin: 0 0 30px 0;
+}
+
+.overlay { 
+    display: none;
+    position: absolute;
+    background-color: #1abc9ca1;
+    width: 100%; 
+    height: 100%;
+    border-radius: 10px;
+    transition: 2s;
+}
+
+.card:hover .overlay {
+    display: block
+}
+
+.overlay i { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+    font-size: 55px;
+}
+
 /* /Portfolio */
 
 /* About */
